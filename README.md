@@ -100,3 +100,6 @@ Heart emoji for the like button : ❤
 - Loop Over Items
 - Extend Application with Custom Scripts
 
+## 3.1 Locating and Installing Angular Modules
+[Angular Resources](https://angular.io/resources)
+[Angular Modules](https://angular.io/docs/ts/latest/api/#!?query=module)
