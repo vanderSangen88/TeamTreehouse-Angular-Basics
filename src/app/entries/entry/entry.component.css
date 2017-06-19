@@ -25,3 +25,11 @@ img {
 	padding: 1em;
 	display: block;
 }
+
+.actions {
+	padding: 1em 0;
+}
+
+.liked {
+	color: red;
+}

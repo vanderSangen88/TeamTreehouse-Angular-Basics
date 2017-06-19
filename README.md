@@ -85,8 +85,18 @@ emoji = ['🎉', '😍', '😜', '👍'];
 
 
 ## 2.4 Component Templates and Styles
+:host = Add a margin to the outer app-entry element. It's part of the CSS3, scoping to the shadow-dome.
+
+## 2.5 Structural Directives
 - [Structural Directive (NgIf, NgFor) Documentation](https://angular.io/docs/ts/latest/guide/structural-directives.html)
 - [Attribute Directive (NgClass, NgStyle) Documentation](https://angular.io/docs/ts/latest/guide/attribute-directives.html)
 - [Template Syntax Documentation](https://angular.io/docs/ts/latest/guide/template-syntax.html)
 
-:host = Add a margin to the outer app-entry element. It's part of the CSS3, scoping to the shadow-dome.
+Heart emoji for the like button : ❤
+
+--- Directives
+- Control Visibility
+- Apply Dynamic Styling
+- Loop Over Items
+- Extend Application with Custom Scripts
+
