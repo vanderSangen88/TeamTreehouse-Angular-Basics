@@ -135,3 +135,15 @@ npm install file-loader --save-dev --save-exact
 - Helps Team Members
 - Provides Checks and Balances
 
+## 4.1 Adding NgForm Module (Basic Forms)
+- [Forms Documentation](https://angular.io/docs/ts/latest/guide/forms.html)
+
+--- Angular Forms:
+- Template Driven > This Course
+- Dynamic
+
+--- FormsModule Features
+- Two-Way Data Binding
+- Change Tracking
+- Validation
+- Error Handling
