@@ -61,7 +61,7 @@ emoji = ['🎉', '😍', '😜', '👍'];
 - [Angular Style Guide](https://angular.io/docs/ts/latest/guide/style-guide.html)
 - [Barrel Definition](https://angular.io/docs/ts/latest/guide/glossary.html#!#barrel)
 
-Types of Data Binding
+--- Types of Data Binding
 - One-Way - Class to Template
 ```html
 <h1>{{expression}}</h1>
@@ -78,3 +78,10 @@ Types of Data Binding
 ```html
 <input [(target)]="expression" />
 ```
+
+## 2.3 Nesting Components
+- :host [selector specification](https://www.w3.org/TR/css-scoping-1/#host-selector)
+- [Angular Documentation for using :host selector](https://angular.io/docs/ts/latest/guide/component-styles.html#!#sts=:host)
+
+
+## 2.4 Component Templates and Styles
