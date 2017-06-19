@@ -56,3 +56,25 @@ emoji = ['🎉', '😍', '😜', '👍'];
 - [TypeScript Type Guards](https://basarat.gitbooks.io/typescript/content/docs/types/typeGuard.html)
 - [TypeScript String Literal Types](http://www.typescriptlang.org/docs/handbook/advanced-types.html#string-literal-types)
 - [Get Emoji](http://getemoji.com/)
+
+## 2.2 Data Binding
+- [Angular Style Guide](https://angular.io/docs/ts/latest/guide/style-guide.html)
+- [Barrel Definition](https://angular.io/docs/ts/latest/guide/glossary.html#!#barrel)
+
+Types of Data Binding
+- One-Way - Class to Template
+```html
+<h1>{{expression}}</h1>
+
+<input [target]="expression" />
+```
+
+- One-Way - Template to Class
+```html
+<button (event)="expression"></button>
+```
+
+- Two-Way - Between Class and Template
+```html
+<input [(target)]="expression" />
+```
