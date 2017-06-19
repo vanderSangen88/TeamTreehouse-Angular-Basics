@@ -110,3 +110,8 @@ npm install @angular/http@2.4.2 --save --save-exact
 
 ## 3.2 Dependency Injection
 - [Observables Documentation](https://angular.io/docs/ts/latest/tutorial/toh-pt6.html#!#observables)
+
+## 3.3 Creating a Service
+- [Public, Private, and Protected modifiers](http://www.typescriptlang.org/docs/handbook/classes.html#public-private-and-protected-modifiers)
+- [TypeScript Generics Documentation](https://www.typescriptlang.org/docs/handbook/generics.html)
+
