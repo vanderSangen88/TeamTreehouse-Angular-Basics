@@ -1,13 +1,17 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpModule } from '@angular/http'
+import { HttpModule } from '@angular/http';
+import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { AppComponent } from './app.component';
 import { EntryListComponent, EntryComponent, EntryService } from './entries'; // barrel: index.ts
+import { InMemoryEntryService } from './backend';
 
 @NgModule({ // decorator; postprocessing the module
-	imports: [
+	imports: [ // only for Angular modules!
 		BrowserModule, // the application will be used in a webbrowser
-		HttpModule
+		HttpModule,
+		InMemoryWebApiModule.forRoot(InMemoryEntryService)// Do not use in a real application!
 	], 
 	providers: [
 		EntryService

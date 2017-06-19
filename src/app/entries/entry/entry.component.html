@@ -1,15 +1,15 @@
 
-<h2>{{title}}</h2>
+<h2>{{entry.title}}</h2>
 <figure>
-	<img src="{{photo}}" />
-	<figcaption>{{description}}</figcaption>
+	<img src="{{entry.photo}}" />
+	<figcaption>{{entry.description}}</figcaption>
 </figure>
 <div class="actions">
 	<button type="button" (click)="isLiked = !isLiked" [ngClass]="{liked: isLiked}">❤</button>
-	<button type="button" (click)="showComments = !showComments">Comments ({{comments.length}})</button>
+	<button type="button" (click)="showComments = !showComments">Comments ({{entry.comments.length}})</button>
 </div>
 <div class="comments" *ngIf="showComments">
-	<div class="comments" *ngFor="let comment of comments">
+	<div class="comments" *ngFor="let comment of entry.comments">
 		<p>
 			<strong>{{comment.name}}</strong>
 			{{comment.comment}}</p>

@@ -1,5 +1,5 @@
 import { Entry } from './entry.model';
-import { Injectable } from 'angular/core';
+import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 
 @Injectable()
@@ -12,6 +12,6 @@ export class EntryService {
 	getEntries(): Promise<Entry[]> { // generic type
 		return this.http.get('/app/entries')
 				.toPromise()
-				then(response => response.json().data as Entry[]);
+				.then(response => response.json().data as Entry[]);
 	}
 }

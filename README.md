@@ -115,3 +115,23 @@ npm install @angular/http@2.4.2 --save --save-exact
 - [Public, Private, and Protected modifiers](http://www.typescriptlang.org/docs/handbook/classes.html#public-private-and-protected-modifiers)
 - [TypeScript Generics Documentation](https://www.typescriptlang.org/docs/handbook/generics.html)
 
+## 3.4 Connecting a Service and Component
+- [Angular In Memory Web API](https://github.com/angular/in-memory-web-api)
+- [Backend Server File](https://gist.githubusercontent.com/kenhowardpdx/b5e6b93b04bc81df1236852268616869/raw/793a2cbc1c3fc8783442378abcbd2d56fcbef462/backend.ts)
+- [Angular Lifecycle Hooks](https://angular.io/docs/ts/latest/guide/lifecycle-hooks.html)
+
+```sh
+npm install angular-in-memory-web-api@0.2.4 --save --save-exact
+
+npm install file-loader --save-dev --save-exact
+```
+
+--- Angular Lifecycle Hooks
+- ngOnInit
+- ngOnDestroy
+
+--- TypeScript Interfaces
+- Enforces Rules
+- Helps Team Members
+- Provides Checks and Balances
+
