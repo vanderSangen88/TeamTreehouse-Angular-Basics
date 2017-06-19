@@ -101,5 +101,12 @@ Heart emoji for the like button : ❤
 - Extend Application with Custom Scripts
 
 ## 3.1 Locating and Installing Angular Modules
-[Angular Resources](https://angular.io/resources)
-[Angular Modules](https://angular.io/docs/ts/latest/api/#!?query=module)
+- [Angular Resources](https://angular.io/resources)
+- [Angular Modules](https://angular.io/docs/ts/latest/api/#!?query=module)
+
+```sh
+npm install @angular/http@2.4.2 --save --save-exact
+```
+
+## 3.2 Dependency Injection
+- [Observables Documentation](https://angular.io/docs/ts/latest/tutorial/toh-pt6.html#!#observables)
