@@ -147,3 +147,12 @@ npm install file-loader --save-dev --save-exact
 - Change Tracking
 - Validation
 - Error Handling
+
+```sh
+npm install @angular/forms@2.4.2 --save --save-exact
+```
+
+## 4.2 Setting Up a Form Group
+[Augury Chrome Developer Tools Extension]https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd)
+
+Note: Once you have installed Augury, restart your browser to access Augury functionality.

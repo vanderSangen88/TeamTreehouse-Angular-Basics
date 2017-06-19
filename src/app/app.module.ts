@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { AppComponent } from './app.component';
-import { EntryListComponent, EntryComponent, EntryService } from './entries'; // barrel: index.ts
+import { EntryListComponent, EntryComponent, EntryService, EntryCommentFormComponent } from './entries'; // barrel: index.ts
 import { InMemoryEntryService } from './backend';
 
 @NgModule({ // decorator; postprocessing the module
@@ -21,7 +21,8 @@ import { InMemoryEntryService } from './backend';
 	declarations: [
 		AppComponent,
 		EntryComponent, // put child components first
-		EntryListComponent
+		EntryListComponent,
+		EntryCommentFormComponent
 	],
 	bootstrap: [AppComponent]
 }) 
