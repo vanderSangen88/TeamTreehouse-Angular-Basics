@@ -7,7 +7,8 @@ TypeScript Documentation(http://www.typescriptlang.org/docs/tutorial.html)
 On Angular 4 Onwards
 
 Angular 4 will be a drop-in replacement for most users. It should be as simple as updating your package.json with the appropriate version numbers.
---- 
+
+--- Why Angular?
 - It's modular.
 - It's build on a static language: TypeScript (a type superscript of JavaScript).
 - It's backed by Google and has a large community of developers.
@@ -15,3 +16,15 @@ Angular 4 will be a drop-in replacement for most users. It should be as simple a
 -- Angular JS vs Angular
 - Angular JS = Version 1
 - Angular = Version 2
+
+## 1.2 The Parts and Pieces of an Angular Application
+Development Tools installation guides(http://treehouse.github.io/installation-guides/)
+Getting Started with Webpack(https://teamtreehouse.com/library/getting-started-with-webpack)
+
+Each Angular Application needs at least 1 Root Module:
+- Services (Internal or part of 3th party modules), 
+- Components (the heart of the application: templates, styles and basic logic). NgModule is the container for your application,  
+- 3th party
+
+WebPack is an open-source Module-Loader. 
+SystemJS: QuickStart to dynamicly load node-packages into the browser.
