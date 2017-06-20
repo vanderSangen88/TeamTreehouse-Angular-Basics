@@ -14,5 +14,5 @@
 			<strong>{{comment.name}}</strong>
 			{{comment.comment}}</p>
 	</div>
-	<app-entry-comment-form (onCommentAdded)="onCommentAdded($event)"></app-entry-comment-form>
+	<app-entry-comment-form (onCommentAdded)="onCommentAdded($event)" [entryId]="entry.id"></app-entry-comment-form>
 </div>

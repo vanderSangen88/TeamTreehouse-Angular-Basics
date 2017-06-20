@@ -160,3 +160,15 @@ Note: Once you have installed Augury, restart your browser to access Augury func
 ## 4.4 Submitting Form Data
 [TypeScript Generics Documentation](https://www.typescriptlang.org/docs/handbook/generics.html)
 
+## 4.6 Posting Data Using a Service
+1. Create a new method in "entry.service.ts" called "addComment".
+2. Provide two parameters called "entryId", which is a "number", and "comment", which is an object with the properties "name" as a "string" and "comment" as a "string".
+3. Post comment to the server by returning the post-request and then the promise.
+4. In "entry-comment-form.component.ts" import the entryService before the new addComment-method can be used.
+5. Add a constructor-function to the EntryCommentFormComponent.
+6. Provide a private parameter "entryService" as an "EntryService"; to append the variable to the prototype during the transpilation-process, making it available on the instance of the class.
+7. In the onSubmit-method call the addComment-method.
+8. Put the eventEmitter and the formReset inside the success-callback of the promise.
+9. To set the entryId property by the EntryComponent, import the Input-decorator so the EntryComponent can pass the value on to the EntryCommentFormComponent.
+10. Add the entryId as a number to the EntryCommentFormComponent.
+11. Set the entryId value on the "app-entry-comment-form"-element in "entry.component.html". The data is flowing One-way: From the parent EntryComponent to the child EntryCommentFormComponent.
