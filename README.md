@@ -172,3 +172,23 @@ Note: Once you have installed Augury, restart your browser to access Augury func
 9. To set the entryId property by the EntryComponent, import the Input-decorator so the EntryComponent can pass the value on to the EntryCommentFormComponent.
 10. Add the entryId as a number to the EntryCommentFormComponent.
 11. Set the entryId value on the "app-entry-comment-form"-element in "entry.component.html". The data is flowing One-way: From the parent EntryComponent to the child EntryCommentFormComponent.
+
+## 4. Quiz Answers:
+1. The following represents an event binding with an HTML template:
+```html
+<button (click)="doThis()">click me</button>
+```
+
+2. The **ViewChild** decorator lets the component inspect the template for local variables and assign them to members of a component.
+
+3. Angular's Event Emitter **does NOT** register a global event.
+
+4. Putting a 'debugger' statement in a method will cause Chrome Developer Tools to break on that line when Developer Tools is open.
+
+5. The Event Emitter is a way to **pass data** between two components.
+
+## 5.1 HTML5 Input Rules
+[HTML input validation options](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+
+1. In "entry-comment-form.component.html" add the "required"-attribute to the "name"-input and "comment"-textarea.
+2. Add another rule to the required fields to enforce a minimum lenght of 3 characters.
