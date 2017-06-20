@@ -1,4 +1,4 @@
-<form (submit)="onSubmit()">
+<form (submit)="onSubmit()" #commentForm="ngForm">
 	<div>
 		<label for="name">Name</label>
 		<input type="text" name="name" [(ngModel)]="name" >
