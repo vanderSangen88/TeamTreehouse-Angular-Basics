@@ -192,3 +192,16 @@ Note: Once you have installed Augury, restart your browser to access Augury func
 
 1. In "entry-comment-form.component.html" add the "required"-attribute to the "name"-input and "comment"-textarea.
 2. Add another rule to the required fields to enforce a minimum lenght of 3 characters.
+
+## 5.2 Form and Input State
+[NgIf Case Study and Documentation](https://angular.io/docs/ts/latest/guide/structural-directives.html#!#ngIf)
+
+1. In "entry-comment-form-component.html" add the "novalidate"-attribute to the form-element to disable the default validation by the browser.
+2. In "entry-comment-form-component.ts" check if the form is valid in the "onSubmit"-method.
+3. Hardcode the validation-messages in the template "entry-comment-form-component.html" below the "name"-input in a div-element with the classes "alert" and "alert-danger".
+4. Create a local variable on the input-element to check the state as the user makes changes: '#nameField="ngModel"'.
+5. Create custom validation messages in the .3 created div-element.
+6. Bind the hidden-attribute of the div with the expression that validates to a truthy value to show this field only when the field has left blank: '[hidden]="!nameField.errors.required"'.
+7. To avoid exceptions, hide the validation messages from the form: Add the ngIf-directive to the parent div-element: '*ngIf="(nameField.dirty || nameField.touched && nameField.errors)"'.
+8. Expend the ngIf expression with another OR case: 'commentForm.submitted ||'.
+9. Add other messages.

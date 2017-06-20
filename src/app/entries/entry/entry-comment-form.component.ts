@@ -20,6 +20,9 @@ export class EntryCommentFormComponent {
 
 	// method declaration
 	onSubmit(commentForm: NgForm) {
+		if(this.commentForm.invalid) {
+			return; // exit method
+		} 
 		let comment = { name: this.name, comment: this.comment };
 		this.entryService.addComment(this.entryId, comment)
 						.then(() => {
