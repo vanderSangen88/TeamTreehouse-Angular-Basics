@@ -8,4 +8,8 @@ import { Entry } from '../shared/entry.model';
 })
 export class EntryComponent {
 	@Input() entry: Entry; // Input-decorator to receive data from the entry-list
+
+	onCommentAdded(comment: {name: string; comment: string;}){ // inline definition
+		this.entry.comments.push(comment);
+	}
 }

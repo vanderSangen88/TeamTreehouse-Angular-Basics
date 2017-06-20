@@ -156,3 +156,7 @@ npm install @angular/forms@2.4.2 --save --save-exact
 [Augury Chrome Developer Tools Extension]https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd)
 
 Note: Once you have installed Augury, restart your browser to access Augury functionality.
+
+## 4.4 Submitting Form Data
+[TypeScript Generics Documentation](https://www.typescriptlang.org/docs/handbook/generics.html)
+
