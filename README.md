@@ -173,7 +173,7 @@ Note: Once you have installed Augury, restart your browser to access Augury func
 10. Add the entryId as a number to the EntryCommentFormComponent.
 11. Set the entryId value on the "app-entry-comment-form"-element in "entry.component.html". The data is flowing One-way: From the parent EntryComponent to the child EntryCommentFormComponent.
 
-## 4. Quiz Answers:
+### 4.6 Quiz Answers:
 1. The following represents an event binding with an HTML template:
 ```html
 <button (click)="doThis()">click me</button>
@@ -205,3 +205,41 @@ Note: Once you have installed Augury, restart your browser to access Augury func
 7. To avoid exceptions, hide the validation messages from the form: Add the ngIf-directive to the parent div-element: '*ngIf="(nameField.dirty || nameField.touched && nameField.errors)"'.
 8. Expend the ngIf expression with another OR case: 'commentForm.submitted ||'.
 9. Add other messages.
+
+### 5.2 Quiz Answers:
+1. Creating a **local variable** lets you inspect the state of ngModel in a view.
+
+2. The **required, minlength** attributes would ensure the input has a value and the value had a minimum length of 3 characters.
+
+3. The **invalid** property on a NgForm instance returns true if the form is invalid.
+
+4. The **novalidate** attribute disables the browser's built-in form validation rules.
+
+5. The **required** attribute ensures the input has a value prior to submitting the form.
+
+## 5.3 Styling Form Inputs
+- [Angular Documentation](https://angular.io/docs/ts/latest/)
+- [Angular CLI](https://cli.angular.io/)
+The Angular team has put a lot of thought into how best to build an Angular application. Angular's command line interface is a tool to help you quickly build out components and a testing framework with your application. Many of the concepts presented in this course are implemented in the CLI.
+
+- [TypeScript Configuration](https://angular.io/docs/ts/latest/guide/typescript-configuration.html)
+There are many ways to configure TypeScript to fit your development style. Angular has put together a nice guide describing what each property means and how it relates to developing an Angular application.
+
+- [Angular Style Guide](https://angular.io/docs/ts/latest/guide/style-guide.html)
+- [Angular Cheat Sheet](https://angular.io/docs/ts/latest/guide/cheatsheet.html)
+- [Angular GitHub Repository](https://github.com/angular/angular)
+
+It's important to keep your application up to date with the latest version of the framework. Star the application then create an account on [larger.io](https://www.larger.io/) to get notified when there are updates.
+
+1. Add the ngStyle-directive which allows inline-styles to html-elements with an expressions that returns a value: '[ngStyle]="{ 'outline-color': commentField.dirty && commentField.valid? 'green' : undefined }"'.
+
+### 5.3 Quiz Answers:
+1. **dirty, touched & errors** are found on form fields using ngModel.
+
+2. The **ngStyle** directive lets you add inline styles to an HTML element.
+
+3. The NgIf directive **adds** and **removes** elements in the DOM based on an expression.
+
+4. When binding to the **hidden** attribute we can hide or show an element.
+
+5. **novalidate** disables the browser's built-in form validation rules.
